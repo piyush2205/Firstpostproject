@@ -1,0 +1,213 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 47%;
+  position: relative;
+  margin: end;
+  margin-left: 14%;
+  padding-top: 13%;
+  
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 5px;
+  width: 30px;
+  margin: 0 3px;
+  background-color: orangered;
+  border-radius: 20%;
+  display: inline-block;
+  transition: step-start;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.text{
+    background-color: white;
+    text-align: left;
+    color: black;
+    height: 140px;
+}
+.text p{ 
+    text-decoration: underline;
+    text-decoration-color:rgb(219, 163, 9);
+    text-decoration-thickness: 5px;
+    /* padding-bottom: 20px; */
+    padding-top: 0px;
+}
+#containerPAPS {
+   width:50%;
+   margin-left: 8%;
+}
+.slideshow-container>h1{
+    text-align: center;
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color:rgb(219, 163, 9);
+    text-decoration-thickness: 5px;
+    /* padding-bottom: 20px; */
+    padding-top: 0px;
+}
+#containerPAPS>div>a>img{  
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#containerPAPS>div>div{ 
+    margin-bottom: 100px;
+    font-family: playfair-display;
+    padding-left: 5px;
+    width: 100%;
+}
+hr{
+    margin-top: -22px;
+    margin-bottom:20px;
+}
+#containerPAPS>div>div>h1{
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+h1+p{
+    color:grey;
+}
+div>p:first-child {
+    text-decoration: underline;
+    text-decoration-color:rgb(219, 163, 9);
+    text-decoration-thickness: 3px;  
+}
+a+div{
+    margin: auto;
+    width: 90%;
+}
+div>p:last-child{
+    margin-top:10px;
+}
+#mainPAPS {
+    margin:auto;
+    margin-left: 100px;
+    display: flex;
+}
+body>p{
+    margin-left: 13%;
+    margin-bottom: -250px;
+    font-size: small;
+    padding-bottom: 50px;
+}
+#readPAPS {
+    margin-top: 50px;
+    /* border: 1px black solid; */
+    width: 30%;
+}
+#readPAPS> h1 {
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color:rgb(219, 163, 9);
+    text-decoration-thickness: 5px;
+    font-size: 23px;
+    margin-left: 20px;
+    font-style: italic;
+    margin-bottom: 0px;   
+}
+#readPAPS > div {
+    border:0.5px solid rgb(211, 210, 210);
+    width: 90%;
+    display: flex;
+}
+#readPAPS div > h1 {
+    font-size: 25px;
+    width: 100%;
+    font-family: playfair-Display;
+}
+#readPAPS div:first-child>h1 {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 10px;   
+}
+#readPAPS div:last-child>a>h1 {
+    font-size: 23px;
+    line-height: 25px;
+    font-family: playfair-display;
+    color: black;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+
+}
+#readPAPS div:last-child {
+    margin-right:20px;
+}
+#readPAPS > div {
+    margin-left: 20px;
+}
+#btnPAPS{
+    margin-left: 50%;
+    margin-top: -50px;
+}
+#btnPAPS>a>button{
+    padding: 8px 12px;
+    background-color: white;
+    border:1px solid rgb(219, 163, 9);
+    border-radius: 5px;
+    margin-bottom: 10%;
+}
+#btnPAPS>a>button:hover{
+    background-color: rgb(219, 163, 9);
+    color: white;
+    cursor: pointer;
+}
+.slide{
+    border: 1px solid green;
+    display: flex;
+}
+.slide>img{
+    display: inline-flex;
+}
+#readPAPS>div>img {
+    width: 100%;
+    margin-top: -100%;
+}
