@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+.footer {
+    border-top: #585858 solid 6px;
+    padding: 10px 0 0;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+   
+}
+/* footermain */
+.footer-main{
+      
+    width: 960px;
+    height: 34px; 
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    margin: auto;    }
+ 
+  .footer-main>div:nth-child(2){
+    
+      height: 34px;
+      width: 960px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-left: 70%;
+    
+  }
+  /* footerlinkwrap */
+  .footer-link-wrap{
+   
+    height: 453px;
+    width: 960px;
+    margin: auto;
+    display: flex;
+  }
+  .footer-link-wrap>div{
+    height: 451px;
+    width:  240px;
+    
+  }
+  .footer-link-wrap {
+    display: flex;
+    margin-top: 10px;
+    padding: 0;
+    border-top: #ddd solid 1px;
+    border-bottom: #ddd solid 1px;
+}
+.footer-link-wrap .footer-heading {
+    font: 800 13px/18px Arial;
+    letter-spacing: 0;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+}
+.footerlink-wrap>div:nth-child(1)>p{
+   font-weight: bolder;
+}
+.footer-link-wrap .footer-column {
+    flex: 1;
+    border-right: #ddd solid 1px;
+    padding: 0 8px 15px;
+}
+.footer-link-wrap .footer-links>a {
+    font: 400 12px/22px Arial;
+    letter-spacing: 0;
+    color: #333;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+    color: #000;
+}
+ul {
+    display: grid;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 4px;
+
+
+   
+}
+.other-sites {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: #ddd solid 1px;
+    margin-bottom: 10px;
+}
+.company-name {
+    display: flex;
+    align-items: center;
+    font: 800 13px/18px Arial;
+    letter-spacing: 0;
+    color: #333;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+
+.other-sites-links {
+    display: flex;
+}
+.other-sites-links li {
+    padding: 0 8px;
+}
+.copywrite {
+    display: flex;
+    justify-content: center;
+    font: 400 12px/22px Arial;
+    letter-spacing: 0;
+    color: #333;
+}
+.tnc-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 10px;
+}
+.tnc-links li a {
+    font: 700 12px/22px Arial;
+    letter-spacing: 0;
+    color: #000;
+}
+.footer-link-wrap .footer-column:last-child {
+    border-right: none;
+}
+.company-name svg {
+    width: 18px;
+    margin-left: 5px;
+    fill: #999;
+}
